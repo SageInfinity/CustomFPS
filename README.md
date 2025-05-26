@@ -16,9 +16,15 @@
 - Smooth FPS counter averaging  
 - Portable EXE build support  
 
-## Installation ⚙️
+## Installation ⚙️ and Usage :
+
 -Just download exe file and an image of required resolution. 
+
 -Run the file, input fps and browse the image, select GPU and START.
+
+
+
+
 
 ### Build from Source
 1. Clone repository
