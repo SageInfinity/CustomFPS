@@ -3,7 +3,7 @@
 **By SageInfinity**  
 *A sleek FPS controller with real-time adjustments and visual feedback*
 
-![CustomFPS Demo]((![image](https://github.com/user-attachments/assets/f0d69a61-541e-4fe8-8f8d-4553aea3500e)![image](https://github.com/user-attachments/assets/ba2c28b6-0152-4684-980b-9be5bbe64a0c)) 
+![image](https://github.com/user-attachments/assets/f0d69a61-541e-4fe8-8f8d-4553aea3500e)![image](https://github.com/user-attachments/assets/ba2c28b6-0152-4684-980b-9be5bbe64a0c) 
 
 ## Features ✨
 - Real-time FPS control (1-480 FPS)  
