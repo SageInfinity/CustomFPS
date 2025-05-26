@@ -3,7 +3,10 @@
 **By SageInfinity**  
 *A sleek FPS controller with real-time adjustments and visual feedback*
 
-![image](https://github.com/user-attachments/assets/f0d69a61-541e-4fe8-8f8d-4553aea3500e)![image](https://github.com/user-attachments/assets/ba2c28b6-0152-4684-980b-9be5bbe64a0c) 
+![1](https://github.com/user-attachments/assets/46076f44-91f4-4295-ac05-546fac3e9fc6)
+![2](https://github.com/user-attachments/assets/553b901f-caac-4131-ba3f-63501375fe77)
+![3](https://github.com/user-attachments/assets/9400bee7-4a39-40b8-8e75-ef33761e37dd)
+
 
 ## Features ✨
 - Real-time FPS control (1-480 FPS)  
@@ -56,6 +59,8 @@ pyinstaller CustomFPS.spec --noconfirm
 | No icon in EXE | Verify `icon.ico` in build directory |
 | GPU not detected | Install latest graphics drivers |
 | Image load failed | Use absolute paths for images |
+
+##If your hardware is too weak, the actual fps would not be same as the target.
 
 ## Credits 🙌
 **Developer**: SageInfinity  
