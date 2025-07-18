@@ -196,7 +196,7 @@ LRESULT CALLBACK InputWndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 
         CreateWindowA("STATIC", NULL, WS_CHILD | WS_VISIBLE | SS_OWNERDRAW, 150, 15, 100, 100, hWnd, (HMENU)IDC_LOGO_STATIC, hInstance, nullptr);
 
-        // MODIFICATION: Increased width of the combobox and adjusted X position to keep it centered.
+    
         g_hGpuCombo = CreateWindowA("COMBOBOX", "", CBS_DROPDOWNLIST | CBS_HASSTRINGS | WS_CHILD | WS_OVERLAPPED | WS_VISIBLE, 50, 135, 300, 250, hWnd, (HMENU)IDC_GPU_COMBO, hInstance, nullptr);
 
         for (const auto& adapter : g_vAdapters)
@@ -216,16 +216,15 @@ LRESULT CALLBACK InputWndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 
         HWND hStartButton = CreateWindowA("BUTTON", "Start Render", WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON, 125, 415, 150, 50, hWnd, (HMENU)IDC_START_BUTTON, hInstance, nullptr);
 
-        // MODIFICATION: Added a new "Close" button to the settings window.
         HWND hCloseSettingsButton = CreateWindowA("BUTTON", "Close", WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON, 125, 475, 150, 40, hWnd, (HMENU)IDC_CLOSE_SETTINGS_BUTTON, hInstance, nullptr);
 
-        // MODIFICATION: Adjusted Y position of the author text to make space for the new button.
+    
         HWND hSageText = CreateWindowA("STATIC", "- by Sage", WS_CHILD | WS_VISIBLE | SS_CENTER, 150, 540, 100, 25, hWnd, (HMENU)IDC_SAGE_TEXT, hInstance, nullptr);
 
 
         EnumChildWindows(hWnd, [](HWND child, LPARAM font) -> BOOL { SendMessage(child, WM_SETFONT, (WPARAM)font, TRUE); return TRUE; }, (LPARAM)g_hUiFont);
 
-        // Set fonts for specific controls
+        
         SendMessage(hStartButton, WM_SETFONT, (WPARAM)hTitleFont, TRUE);
         SendMessage(hCloseSettingsButton, WM_SETFONT, (WPARAM)hTitleFont, TRUE); // Use same font as start button for consistency
         SendMessage(hSageText, WM_SETFONT, (WPARAM)hSageFont_Input, TRUE);
@@ -302,9 +301,8 @@ LRESULT CALLBACK InputWndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
                 MessageBox(hWnd, L"Please enter valid numbers.", L"Error", MB_OK | MB_ICONERROR);
             }
         }
-        // MODIFICATION: Handle the click event for the new close button.
         if (LOWORD(wParam) == IDC_CLOSE_SETTINGS_BUTTON) {
-            DestroyWindow(hWnd); // This will cause PostQuitMessage(0) to be called in WM_DESTROY
+            DestroyWindow(hWnd); 
         }
         break;
     }
