@@ -8,6 +8,6 @@ I have uploaded the source files as well. You can build the exe yourself.
 ---
 
 Otherwise : 
-Download the CustomFPS.exe file and simply run it.
+Download the x64/Debug/CustomFPS.exe file and simply run it.
 
 ---
