@@ -1,0 +1,14 @@
+﻿  CustomFPS.cpp
+D:\FPS\CustomFPS\CustomFPS.cpp(424,26): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
+D:\FPS\CustomFPS\CustomFPS.cpp(428,29): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
+D:\FPS\CustomFPS\CustomFPS.cpp(437,76): warning C4244: 'argument': conversion from 'LRESULT' to 'int', possible loss of data
+D:\FPS\CustomFPS\CustomFPS.cpp(452,25): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
+D:\FPS\CustomFPS\CustomFPS.cpp(453,28): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
+  Generating code
+  11 of 288 functions ( 3.8%) were compiled, the rest were copied from previous compilation.
+    9 functions were new in current compilation
+    10 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  CustomFPS.vcxproj -> D:\FPS\CustomFPS\x64\Release\CustomFPS.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
