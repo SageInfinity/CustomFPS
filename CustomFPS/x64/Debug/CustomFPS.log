@@ -1,0 +1,6 @@
+﻿  CustomFPS.cpp
+D:\FPS\CustomFPS\CustomFPS.cpp(285,34): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
+D:\FPS\CustomFPS\CustomFPS.cpp(448,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  CustomFPS.vcxproj -> D:\FPS\CustomFPS\x64\Debug\CustomFPS.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
